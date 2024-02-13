@@ -208,8 +208,8 @@ export const Necesitamos = (props) => {
           <CameraModal
             isVisible={isCaratulaModal}
             onClosePress={() => setIsCaratulaModal(false)}
-            onCameraPress={() => pickImageFront("camera")}
-            onGallaryPress={() => pickImageFront("gallary")}
+            onCameraPress={() => pickImageFront("Cámara")}
+            onGallaryPress={() => pickImageFront("Galería")}
           />
         </>
       )}
@@ -218,8 +218,8 @@ export const Necesitamos = (props) => {
           <CameraModal
             isVisible={isParteModal}
             onClosePress={() => setIsParteModal(false)}
-            onCameraPress={() => pickImageBack("camera")}
-            onGallaryPress={() => pickImageBack("gallary")}
+            onCameraPress={() => pickImageBack("Cámara")}
+            onGallaryPress={() => pickImageBack("Galería")}
           />
         </>
       )}
