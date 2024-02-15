@@ -1,16 +1,4 @@
-/*
- * This project is created and maintained by:
- * React Native Team
- * 724.One
- *
- * Project Description:
- * A cross-platform mobile application developed using React Native,
- *
- * For support and inquiries, please contact:
- * - Email: contact@724.one
- *
- * @format
- */
+
 import React from "react";
 import { StatusBar, LogBox, View, Platform, StyleSheet } from "react-native";
 import Routing from "./src/boot/routing";
